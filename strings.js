@@ -17,8 +17,6 @@ const BMIMark = massMark / (heightMark * heightMark);
 const BMIJohn = massJohn / (heightJohn * heightJohn);
 //console.log(BMIMark, BMIJohn);
 (BMIJohn>BMIMark)?console.log("John's BMI is higher than Mark's!"):console.log("Mark's BMI is higher than John's!");
-
-/* Write your code below. Good luck! 🙂 */
   
 if(BMIJohn>BMIMark){
     console.log(`John's BMI (${BMIJohn}) is higher than Mark's  (${BMIMark})!`);
